@@ -6,27 +6,90 @@ html {
 
 .header{
    display: flex;
-   flex-direction: row;
+   flex-direction: row-reverse;
    align-items: center;
+   justify-content: space-around;
   
 }
 
 
 .header-logo {
-        margin-top: 20px;
-        margin-left: 80px;
-       
+        margin-top: 18px;
+        margin-left: 0px;
+        align-self: flex-start; 
+         
 }
 
-.header > .header-menu {
+.header > .header-menu > a{
+        
         color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 50px;
+        font-weight: bold;
         align-self: flex-center;
         Justify-content: flex-between;
+        text-decoration: none;
+        margin-left: 42px;
+}
+
+.header > .header-menu > .pagina_atual {
+    text-decoration-line: underline;
+
 }
 
 
-.cabecalho {
-    height: 100px;
-    margin-left: 10%;
-    margin-right: 10%; 
+.banner {
+    background-image: url("../image/cinco_canais_digitais.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 78px;
+    margin-top: 31px;
+    height: 370px;
+    width: 1145px;
 }
+
+.ellipse-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    margin-left: 584px;
+    margin-top: 17px;
+    
+}
+
+.titulo_NovidadeMercadoDigital {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:50px;
+}
+
+  
+
+div > .imagem_boas_praticas {
+  background-image: url("../image/boas_praticas.jpg");
+  background-repeat: no-repeat;
+  margin-left: 78px;
+    margin-top: 31px;
+    height: 370px;
+    width: 1145px;
+  
+}
+
+
+
+.paragrafo_boas_praticas > a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.paragrafo_boas_praticas > a > .titulo_do_paragrafo{
+    font-weight: bold;
+
+}
+
+
+
