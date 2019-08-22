@@ -1,0 +1,49 @@
+[debug] [2019-08-20T23:07:21.953Z] ----------------------------------------------------------------------
+[debug] [2019-08-20T23:07:21.958Z] Command:       /usr/local/Cellar/node/12.8.1/bin/node /usr/local/bin/firebase serve
+[debug] [2019-08-20T23:07:21.958Z] CLI Version:   7.2.3
+[debug] [2019-08-20T23:07:21.958Z] Platform:      darwin
+[debug] [2019-08-20T23:07:21.958Z] Node Version:  v12.8.1
+[debug] [2019-08-20T23:07:21.959Z] Time:          Tue Aug 20 2019 20:07:21 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2019-08-20T23:07:21.960Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-20T23:07:21.981Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-20T23:07:21.982Z] > authorizing via signed-in user
+[debug] [2019-08-20T23:07:21.982Z] [iam] checking project clientetech-3ecd8 for permissions ["firebase.projects.get"]
+[debug] [2019-08-20T23:07:21.985Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/clientetech-3ecd8:testIamPermissions  
+
+[debug] [2019-08-20T23:07:23.090Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-20T23:07:23.094Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/clientetech-3ecd8  
+ 
+[debug] [2019-08-20T23:07:24.516Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog'...
+[info] 
+[debug] [2019-08-20T23:07:24.525Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/clientetech-3ecd8/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-08-20T23:07:25.744Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-08-20T23:07:27.181Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions","node_version":"12.8.1"}
+[debug] [2019-08-20T23:07:27.181Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T23:07:27.187Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T23:07:27.191Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T23:07:27.192Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[api]: http function initialized (http://localhost:5001/clientetech-3ecd8/us-central1/api).
+[debug] [2019-08-20T23:07:38.147Z] Accepted request GET /clientetech-3ecd8/us-central1/api/leads.csv --> api
+[debug] [2019-08-20T23:07:39.614Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions","node_version":"12.8.1"}
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-08-20T23:07:39.615Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-08-20T23:07:39.625Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-08-20T23:07:39.632Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T23:07:39.633Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/Aurea/Documents/Gama Academy/Assigments/ClienteTech_Novo/blog/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-08-20T23:07:40.569Z] [runtime-status] Trigger "api" has been found, beginning invocation! {}
+[debug] [2019-08-20T23:07:40.569Z] [runtime-status]  {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-08-20T23:07:40.569Z] [runtime-status] Running api in mode HTTPS {}
+[debug] [2019-08-20T23:07:40.586Z] {"socketPath":"/var/folders/3v/7f6ft2w13xzdy28ttp78x7lh0000gn/T/firebase_emulator_invocation_5383.sock"}
+[debug] [2019-08-20T23:07:40.588Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/3v/7f6ft2w13xzdy28ttp78x7lh0000gn/T/firebase_emulator_invocation_5383.sock"}
+[debug] [2019-08-20T23:07:40.609Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-08-20T23:07:40.883Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "api" in ~1s

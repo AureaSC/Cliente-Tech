@@ -1,0 +1,32 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+  
+}
+
+
+.header-logo {
+        margin-top: 20px;
+        margin-left: 80px;
+       
+}
+
+.header > .header-menu {
+        color: black;
+        align-self: flex-center;
+        Justify-content: flex-between;
+}
+
+
+.cabecalho {
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%; 
+}

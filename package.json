@@ -1,0 +1,23 @@
+{
+  "name": "clientetech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/app": "^0.4.14",
+    "@firebase/app-types": "^0.4.3",
+    "admin": "^1.4.1",
+    "body-parser": "^1.19.0",
+    "csv-stringify": "^5.3.3",
+    "express": "^4.17.1",
+    "firebase": "^6.4.0",
+    "firebase-admin": "^8.3.0",
+    "firebase-tools": "^7.2.4"
+  }
+}
